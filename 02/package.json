@@ -1,0 +1,19 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node google.js",
+    "test": "npx mocha *.spec.js --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "selenium-webdriver": "^4.26.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.8.2"
+  }
+}
